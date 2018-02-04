@@ -1,0 +1,4 @@
+#ansible <pattern_goes_here[webservers, all, *]> -m <module_name> -a <arguments>
+ansible all -m command -a 'echo wangyang'
+ansible all -m ping
+ansible-playbook hello_world.yml
